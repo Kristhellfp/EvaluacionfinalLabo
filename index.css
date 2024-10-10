@@ -1,0 +1,51 @@
+
+.componente1, .componente2, .lista-component {
+    border: 2px solid black; 
+    margin: 10px;
+    padding: 10px;
+    max-width: 375px; 
+    width: 100%;
+}
+
+.componente1 h2, .componente2 label, .lista-component h2 {
+    font-size: 18px; 
+    text-align: center;
+}
+
+.componente1 p, .lista-component li {
+    font-size: 14px; 
+    text-align: left; 
+}
+
+.componente2 {
+    display: flex;
+    flex-direction: column; 
+}
+
+.componente2 button {
+    margin-top: 5px; 
+}
+
+input[type="text"] {
+    margin-left: 5px; 
+    padding: 5px; 
+    width: calc(100% - 12px); 
+}
+/
+.lista-component ul {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
+
+@media (max-width: 375px) {
+    .componente1 h2, .componente2 label, .lista-component h2 {
+        font-size: 16px; 
+    }
+    .componente1 p, .lista-component li {
+        font-size: 12px; 
+    }
+    .componente2 label,
+    .componente2 button {
+        font-size: 12px; 
+    }
+}

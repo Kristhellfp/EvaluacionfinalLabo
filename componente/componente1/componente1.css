@@ -1,0 +1,10 @@
+.componente1 {
+    border: 2px  black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.componente1-img {
+    width: 50px;
+    height: 50px;
+}

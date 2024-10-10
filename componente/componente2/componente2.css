@@ -1,0 +1,13 @@
+.formulario {
+    border: 2px solid black; /* Agregado el estilo sólido para el borde */
+    margin: 20px;
+    padding: 10px;
+}
+
+.formulario input {
+    margin-left: 5px; 
+}
+
+.formulario button {
+    margin-left: 5px; 
+}
